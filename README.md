@@ -395,7 +395,7 @@ What is the attacker's bitcoin wallet?
 Format: string
 #### Step 1
 By the same way as the previous question, the question could be easily answered by reading the content of the email.
-![assets/s19q3.jpg](assets/s19q3.jpg)
+![assets/s19q3.jpg](assets/s19q2.jpg)
 #### Answer
 ```c
 1CWHmuF8dHt7HBGx5RKKLgg9QA2GmE3UyL
@@ -458,4 +458,4 @@ sha256 invest_20.dll
 ```c
 Congratulations! Here is your flag: KOMJAR25{B3ware_0f_M4lw4re_Q1lBjLY0oJ3rCllqfcUS8GO4a}
 ```
-![assets/flag20.jpg](assets/flag120.jpg)
+![assets/flag20.jpg](assets/flag20.jpg)
