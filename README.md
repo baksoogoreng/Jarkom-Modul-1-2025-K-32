@@ -25,7 +25,7 @@ Format: user:pass
 #### Step 1
 Use display filter.
 ```c
-http.request.method == "POST"
+frame contains "success"
 ```
 ![assets/s14q2-1.jpg](assets/s14q2-1.jpg)
 #### Step 2
@@ -437,7 +437,7 @@ Use display filter
 ```c
 http.response.code == 200
 ```
-Looking for 200/ success. Follow > TCP Stream, then we can see that from the HTTP GET, there's a file named invest_20.dll
+Looking for 200/ success. Follow > TCP Stream, scroll up, then we can see that from the HTTP GET, there's a file named invest_20.dll
 ![assets/s20q2.jpg](assets/s20q2.jpg)
 #### Answer
 ```c
