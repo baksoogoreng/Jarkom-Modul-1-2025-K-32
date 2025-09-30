@@ -30,8 +30,6 @@ frame contains "success"
 ![assets/s14q2-1.jpg](assets/s14q2-1.jpg)
 #### Step 2
 Open the packet using Follow > TCP Stream.
-#### Explanation
-At first I opened the first packet from the bottom, but it's still the invalid credentials. Then, I go click the second packet from the bottom and it shows the correct credentials.
 ![assets/s14q2-2.jpg](assets/s14q2-2.jpg)
 #### Answer
 ```c
