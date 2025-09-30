@@ -27,7 +27,7 @@ Use display filter.
 ```c
 frame contains "success"
 ```
-![assets/s14q2-1.jpg](assets/s14q2-1.jpg)
+![assets/s14q2-1.jpg](assets/s14q2.jpg)
 #### Step 2
 Open the packet using Follow > TCP Stream.
 ![assets/s14q2-2.jpg](assets/s14q2-2.jpg)
@@ -54,7 +54,7 @@ From the same 'Follow TCP Stream', we can also notice that the tools used for br
 ```c
 Fuzz Faster U Fool v2.1.0-dev
 ```
-![assets/s14q2-1.jpg](assets/s14q2-1.jpg)
+![assets/s14q2-1.jpg](assets/s14q2-2.jpg)
 ### Flag
 ```c
 Congratulations! Here is your flag: KOMJAR25{Brut3_F0rc3_N7f6C7vdFVA5f8Rn7I7O7g7nS}
