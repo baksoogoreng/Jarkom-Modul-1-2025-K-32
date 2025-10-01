@@ -127,7 +127,7 @@ put <ramalan_cuaca files>
 
 > Number 9
 ```
->in eru
+> in eru
 wget --no-check-certificate "https://drive.google.com/uc?export=download&id=11ua2KgBu3MnHEIjhBnzqqv2RMEiJsILY" -O kitab_penciptaan.zip
 unzip kitab_penciptaan.zip
 
@@ -245,7 +245,6 @@ start capture : eru -> verda
 > go back to verda
 apt install -y openssh-client (if haven't installed)
 ssh <tester>@192.227.1/2.1
-
 ```
 
 `Well goodbye for now, farewell. 07 - persephone`
