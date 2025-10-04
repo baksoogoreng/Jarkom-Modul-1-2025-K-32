@@ -14,22 +14,22 @@ iface eth0 inet dhcp
 
 auto eth1
 iface eth1 inet static
-	address 192.227.1.1     <--- My Group prefix ip || with connection to the switch 1
-	netmask 255.255.255.0
+    address 192.227.1.1     <--- My Group prefix ip || with connection to the switch 1
+    netmask 255.255.255.0
 
 auto eth2
 iface eth2 inet static
-	address 192.227.2.1     <--- connected to the switch 2
-	netmask 255.255.255.0
+    address 192.227.2.1     <--- connected to the switch 2
+    netmask 255.255.255.0
 
 up iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.227.0.0/16
 
 **Melkor**
 auto eth0
 iface eth0 inet static
-	address 192.227.1.2     <--- connected to the switch 1 || using 1.2
-	netmask 255.255.255.0
-	gateway 192.227.1.1
+    address 192.227.1.2     <--- connected to the switch 1 || using 1.2
+    netmask 255.255.255.0
+    gateway 192.227.1.1
 
 Menwa
 auto eth0
@@ -1144,7 +1144,8 @@ Invoice&MSO-Request.doc
 What is the name of the second suspicious file?
 Format: file.exe
 #### Step 1
-Use the same way as the previous question, as there are 3 files, including the knr.exe
+Use the same way as the previous question, there will be 3 files. Including the knr.exe
+![assets/s17q2.jpg](assets/s17q2.jpg)
 #### Answer
 ```c
 knr.exe
