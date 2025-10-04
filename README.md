@@ -537,8 +537,7 @@ Invoice&MSO-Request.doc
 What is the name of the second suspicious file?
 Format: file.exe
 #### Step 1
-Use the same way as the previous question, there will be 3 files. Including the knr.exe
-![assets/s17q2.jpg](assets/s17q2.jpg)
+Use the same way as the previous question, as there are 3 files, including the knr.exe
 #### Answer
 ```c
 knr.exe
