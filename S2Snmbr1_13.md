@@ -204,7 +204,7 @@ start capture : eru -> melkor
 with filter : telnet
 
 > go back to eru
-sudo apt install -y telnet || which telnet 
+apt install -y telnet || which telnet 
 
 telnet 192.227.1.2
 login telnet -> new user
